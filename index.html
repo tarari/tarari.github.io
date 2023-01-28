@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/public/css/style.css" rel="stylesheet">
-    <script src="/public/js/app.js"></script>
+    <script src="/public/js/app.js" defer></script>
     <title>Tarari's site</title>
 </head>
-<body class="body-font font-poppins">
+<body>
     <header class="flex bg-indigo-900 text-white p-8">
         <h1 class="text-6xl underline px-8">Tarari's things</h1>
     </header>
@@ -17,10 +17,11 @@
             <ul class="flex justify-around">
                 <li>Backend</li>
                 <li>Devops</li>
+                <li><a href="https://blog.toniprojects.eu">Blog</a></li>
                 <li><form>Search: <input class="border rounded border-emerald-700" type="search"></form></li>
             </ul>
         </nav>
-        <section class="w-full md:w-2/3 md:m-20 h-1/2 rounded-sm">
+        <section class="w-full md:w-2/3 md:m-20 h-1/2  font-mono">
             <hr class="text-emerald-800">
             <h2 class="text-2xl text-emerald-800 p-2"> M7 - Desenvolupament d'apps web en servidor</h2>
             <article>
@@ -29,10 +30,11 @@
             </article>
         </section>
         <footer>
-             <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
+            <div><svg onclick="up()" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              </div>
+            </div>
+              
         </footer>
        
     </main>
