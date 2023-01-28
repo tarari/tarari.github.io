@@ -8,25 +8,31 @@
     <script src="/public/js/app.js"></script>
     <title>Tarari's site</title>
 </head>
-<body>
+<body class="body-font font-poppins">
     <header class="flex bg-indigo-900 text-white p-8">
         <h1 class="text-6xl underline px-8">Tarari's things</h1>
     </header>
     <main>
-        <nav class="bg-indigo-500 text-white p-4">
-            <ul>
-                <li>Inici</li>
+        <nav class="bg-indigo-200 text-white p-4">
+            <ul class="flex justify-around">
+                <li>Backend</li>
+                <li>Devops</li>
+                <li><form>Search: <input class="border rounded border-emerald-700" type="search"></form></li>
             </ul>
         </nav>
-        <section class="w-2/3 m-20 h-1/2 bg-emerald-200">
-            <h2 class="text-2xl p-2"> M7 - Desenvolupament d'apps web en servidor</h2>
+        <section class="w-full md:w-2/3 md:m-20 h-1/2 rounded-sm">
+            <hr class="text-emerald-800">
+            <h2 class="text-2xl text-emerald-800 p-2"> M7 - Desenvolupament d'apps web en servidor</h2>
             <article>
-                <h3 class="mt-4 px-4">Un .htaccess per cada acció</h3>
+                <h3 class="mt-4 mb-4 text-2xl px-4">Un .htaccess per cada acció</h3>
                 <p class="text-sm">El fitxer .htaccess és un fitxer propi del sistema Apache.</p>
             </article>
         </section>
         <footer>
-             <div>Amunt</div>
+             <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
+              </svg>
+              </div>
         </footer>
        
     </main>
