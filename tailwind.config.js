@@ -5,6 +5,7 @@ module.exports = {
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      mono: ["Special Elite",'sans'],
   },
 },
   plugins: [],
