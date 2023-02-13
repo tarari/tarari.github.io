@@ -688,6 +688,10 @@ video {
   margin-right: 24rem;
 }
 
+.mb-auto{
+  margin-bottom: auto;
+}
+
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -798,10 +802,6 @@ video {
 
 .hidden{
   display: none;
-}
-
-.h-screen{
-  height: 100vh;
 }
 
 .h-48{
@@ -1659,6 +1659,10 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-b-2{
+  border-bottom-width: 2px;
+}
+
 .border-t{
   border-top-width: 1px;
 }
@@ -1697,6 +1701,11 @@ video {
 
 .border-none{
   border-style: none;
+}
+
+.border-sky-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity));
 }
 
 .border-sky-600{
@@ -1991,10 +2000,6 @@ video {
 
 .align-super{
   vertical-align: super;
-}
-
-.font-serif{
-  font-family: Merriweather, serif;
 }
 
 .font-mono{
