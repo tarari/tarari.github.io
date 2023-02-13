@@ -692,14 +692,6 @@ video {
   margin-bottom: auto;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
-}
-
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -2654,6 +2646,16 @@ video {
 
   .md\:flex-row{
     flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:mt-10{
+    margin-top: 2.5rem;
+  }
+
+  .lg\:mb-10{
+    margin-bottom: 2.5rem;
   }
 }
 
