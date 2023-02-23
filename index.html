@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toni Jiménez portfolio"/>
+    <meta name="keywords" content="php,web development,daw"/>
+
     <link href="/public/css/style.css" rel="stylesheet">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     <script src="/public/js/app.js" defer></script>
-    <title>Tarari's port</title>
+    <title>Tarari's portfolio</title>
+
 </head>
 <body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false" class="bg-gray-100 mb-auto">
     <header class="flex border border-b-2 border-sky-500 flex-col md:flex-row h-30 bg-teal-200 justify-start items-center">
@@ -28,15 +32,17 @@
   x-cloak
   x-transition
 >
-    <div class="modal-inner">
+    <div class="modal-inner rounded-sm shadow-md shadow-sky-500">
       <div class="modal-header bg-white flex justify-between">
-        <div><h3>My bio</h3></div>
-        <div><button aria-label="Close" x-on:click="isModalOpen=false" class="">✖</button></div>
+        <div><h3 class="px-4">My bio</h3></div>
+        <div><button aria-label="Close" x-on:click="isModalOpen=false" class="px-4">✖</button></div>
       </div>
       <div class="bg-sky-600 p-4">
         <img  class="rounded-full h-20 w-20" src="public/img/foto.jpeg" alt="Toni">
         <p class="text-sm font-mono">
-        Hi, I'm Toni Jiménez. I like proof and investigate in web technologies
+          Hello! My name is Toni. I am a professor of web technologies, passionate about research and teaching. </p>
+          <p class="text-sm font-mono">The aspects that I have worked hard are backend development, although I also enjoy the frontend, I like to reach the "http" and refactor my own code.</p>
+
       </p>
     </div>
       

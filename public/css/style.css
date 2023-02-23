@@ -1613,6 +1613,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-sm{
+  border-radius: 0.125rem;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
@@ -1941,6 +1945,11 @@ video {
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-8{
@@ -2413,6 +2422,11 @@ video {
 
 .shadow-slate-400{
   --tw-shadow-color: #94a3b8;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-sky-500{
+  --tw-shadow-color: #0ea5e9;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
