@@ -2721,6 +2721,10 @@ video {
     margin: 5rem;
   }
 
+  .md\:w-1\/2{
+    width: 50%;
+  }
+
   .md\:w-1\/3{
     width: 33.333333%;
   }
